@@ -11,7 +11,14 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@types/node": "^26.1.2",
+    "autoprefixer": "^10.5.4",
+    "postcss": "^8.5.25",
+    "tailwindcss": "^4.3.3",
     "typescript": "^7.0.2",
     "vite": "^8.1.5"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.3.3"
   }
 }
