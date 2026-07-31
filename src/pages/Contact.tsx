@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { useLocation, Link } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 export default function Contact() {
   const location = useLocation();
