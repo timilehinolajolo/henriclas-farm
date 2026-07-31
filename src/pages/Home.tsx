@@ -24,11 +24,12 @@ export default function Home() {
           </h1>
         </div>
 
+        {/* Added 'hidden md:block' here and removed mobile widths */}
         <motion.div 
           initial={{ opacity: 0, x: 20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 1, delay: 0.2 }}
-          className="absolute right-10 md:right-24 top-[15%] w-[85vw] md:w-[40vw] h-[70vh] z-0 shadow-2xl bg-brand-surface overflow-hidden"
+          className="hidden md:block absolute right-24 top-[15%] w-[40vw] h-[70vh] z-0 shadow-2xl bg-brand-surface overflow-hidden"
         >
           <motion.img 
             style={{ y: yHeroImg }}
