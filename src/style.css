@@ -1,8 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  --color-brand-navy: #1D2A54;
-  --color-brand-rust: #B5502A;
-  --color-brand-cream: #F6EFE1;
-  --color-brand-olive: #5B6B3E;
+  /* Cool, Mature Corporate Palette */
+  --color-brand-bg: #FFFFFF;       /* Pure white*/
+  --color-brand-primary: #1A2F3D;  /* Deep Slate Blue*/
+  --color-brand-accent: #0E5B42;   /* Deep Cool Green */
+  --color-brand-surface: #F0F4F8;  /* Ice/Steel Gray*/
+  --color-brand-muted: #4A5568;    /* Slate gray */
+
+  /* Typography */
+  --font-fraunces: 'Fraunces', serif;
+  --font-work: 'Work Sans', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  font-family: var(--font-work);
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-primary);
 }
